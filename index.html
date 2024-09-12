@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="resume-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="img.jpeg" alt="">
+            </div>
+            <h1>Iqra Ali</h1>
+            <p>CEO At Iqra's Tech</p>
+            <div class="about">
+                <h2>ABOUT</h2>
+                <p>Phone: 405747508</p>
+                <p>Email: aqria9786@gmail.com</p>
+                <p>Location: Karachi, Pakistan</p>
+            </div>
+            <div class="skills">
+                <h2>SKILLS</h2>
+                <p>Leadership</p>
+                <p>Nextjs 14</p>
+                <p>Tailwind CSS</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="section">
+                <h2>ACHIEVEMENTS</h2>
+                <div id="achievements" class="content">
+                    <p>Awarded "Best GenAI Company CEO" in 2023</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum iusto possimus nostrum, aliquam sequi dignissimos.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, at</p>
+                </div>
+                <div class="btn">
+                    <button onclick="toggleSection('achievements', this, 'Achievements')">Hide Achievements</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>EDUCATION</h2>
+                <div id="education" class="content">
+                    <p>Bachelor of Business Administration (BBA)</p>
+                    <p>University of Karachi</p>
+                    <p>Graduation Date: 2020-09-06</p>
+                </div>
+                <div class="btn">
+                    <button onclick="toggleSection('education', this, 'Education')">Hide Education</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>EXPERIENCES</h2>
+                <div id="experience" class="content">
+                    <p>CEO</p>
+                    <p>Iqra's Tech, Karachi</p>
+                    <p>Duration: 2021-09-04 to Present</p>
+                    <p>Responsibilities:</p>
+                  
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, debitis.</p>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, debitis.</p>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, quo?</p>
+                    
+                </div>
+                <div class="btn">    
+                <button onclick="toggleSection('experience', this, 'Experience')">Hide Experience</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>PROJECTS</h2>
+                <div id="projects" class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="btn">
+                    <button onclick="toggleSection('projects', this, 'Projects')">Hide Projects</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
